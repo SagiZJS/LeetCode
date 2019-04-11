@@ -1,7 +1,5 @@
 package jishun.utils.tree;
 
-import com.sun.source.tree.Tree;
-
 public class BST<E extends Comparable<E>>{
 	
 	private TreeNode<E> root=null;
