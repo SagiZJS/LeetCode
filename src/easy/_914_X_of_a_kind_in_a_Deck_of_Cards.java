@@ -1,6 +1,5 @@
 package easy;
 
-import java.util.*;
 
 public class _914_X_of_a_kind_in_a_Deck_of_Cards {
 	public static boolean hasGroupsSizeX(int[] deck) {

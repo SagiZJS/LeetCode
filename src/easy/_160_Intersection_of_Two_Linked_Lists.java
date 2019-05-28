@@ -35,9 +35,5 @@ public class _160_Intersection_of_Two_Linked_Lists {
 		return null;
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		_160_Intersection_of_Two_Linked_Lists t =new _160_Intersection_of_Two_Linked_Lists();
-	}
 
 }

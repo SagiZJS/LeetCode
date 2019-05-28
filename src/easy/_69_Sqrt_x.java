@@ -1,5 +1,4 @@
 package easy;
-import java.math.*;
 public class _69_Sqrt_x {
 	public static int mySqrt(int x) {
 		int i=0;
