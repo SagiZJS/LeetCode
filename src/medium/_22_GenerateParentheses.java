@@ -31,7 +31,6 @@ public class _22_GenerateParentheses {
 	private List<String> res = new ArrayList<>();
 	
 	public List<String> generateParenthesis(int n) {
-		int count = 0;
 		recursion("", 0, 0, n);
 		return res;
 	}

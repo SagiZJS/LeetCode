@@ -1,7 +1,5 @@
 package hard;
 
-import java.io.IOException;
-
 class _37_Sudoku_Solver {
   
 	

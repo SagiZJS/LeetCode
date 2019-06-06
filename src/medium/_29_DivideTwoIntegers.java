@@ -52,8 +52,5 @@ public class _29_DivideTwoIntegers {
 		return res;
 	}
 	public static void main(String[] args) {
-		_29_DivideTwoIntegers s = new _29_DivideTwoIntegers();
-//		System.out.println(s.divide(Integer.MAX_VALUE, 1));
-		System.out.println(Integer.MIN_VALUE>>1);
 	}
 }

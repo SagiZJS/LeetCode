@@ -1,6 +1,5 @@
 package medium;
 
-import java.util.Arrays;
 
 public class _338_Counting_Bits {
 	public static int[] countBits(int num) {
@@ -11,8 +10,8 @@ public class _338_Counting_Bits {
 		}
 		output[0]=0;
 		output[1]=1;
-		int count=2//2^i
-				,temp=0;//offset
+		int count=2;//2^i
+				//offset
 		for(int i=2;i<=num;i++) {
 			if(i>=2*count) {
 				count *= 2;
