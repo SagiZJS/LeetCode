@@ -51,24 +51,26 @@ class _37_Sudoku_Solver {
 		
 		_37_Sudoku_Solver s = new _37_Sudoku_Solver();
 		s.solveSudoku(board);
+		
 		s.print(board);
 		
 		
 	}
 	
 	public void print(char[][] board) {
-		for(char[] a : board) {
-			for(char b : a) {
-				System.out.print(b);
-			}
-			System.out.println();
-		}
-		System.out.println();
+//		for(char[] a : board) {
+//			for(char b : a) {
+//				System.out.print(b);
+//			}
+//			System.out.println();
+//		}
+//		System.out.println();
 	}
 	
     public void solveSudoku(char[][] board) {
         
-        System.out.println(fillOneDigit(board));
+        System.out.println(
+                fillOneDigit(board));
         
     }
     
@@ -86,7 +88,7 @@ class _37_Sudoku_Solver {
            // System.out.println(Arrays.toString(board[i]));
         //}
         //System.out.println();
-    	print(board);
+//    	print(board);
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 if (board[i][j] == '.') {
