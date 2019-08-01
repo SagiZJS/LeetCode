@@ -1,6 +1,12 @@
 package medium;
 
 public class _117_PopulatingNextRightPointersinEachNodeII {
+    static class Node {
+        Node left;
+        Node next;
+        Node right;
+        int val;
+    }
     class DepthNode {
         int depth;
         Node node;
